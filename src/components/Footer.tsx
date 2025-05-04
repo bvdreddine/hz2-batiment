@@ -143,8 +143,8 @@ const Footer: React.FC = () => {
             &copy; {currentYear} HZ2 Bâtiment. Tous droits réservés.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-500 hover:text-gray-400 text-sm">Mentions légales</a>
-            <a href="#" className="text-gray-500 hover:text-gray-400 text-sm">Politique de confidentialité</a>
+            <Link to="/mentions-legales" className="text-gray-500 hover:text-gray-400 text-sm">Mentions légales</Link>
+            <Link to="/politique-confidentialite" className="text-gray-500 hover:text-gray-400 text-sm">Politique de confidentialité</Link>
           </div>
         </div>
       </div>
